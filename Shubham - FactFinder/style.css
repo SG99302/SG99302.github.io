@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Black+Ops+One&family=Fugaz+One&family=Nunito:ital,wght@1,300&family=Poller+One&family=Sanchez&family=Shrikhand&family=Sigmar+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fascinate&family=Kdam+Thmor+Pro&family=Lobster&family=Orbitron:wght@600&family=Press+Start+2P&family=Ubuntu&display=swap');
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: orange;
+}
+
+h1 {
+	font-family: 'Pushster';
+	color: white;
+	font-size: 70px;
+	text-align:center;
+	margin: -3vh;
+}
+
+main {
+	border: 5px outset blue;
+	background-color: DodgerBlue;
+	border-radius: 8px;
+	display: grid;
+	width: 80vw;
+	height: 65vh;
+	grid-template-rows: 100px auto;
+	margin-top: 6vh;
+	margin-bottom: 3vh;
+	padding: 3vw;
+}
+
+#factdisplay {
+	border: 5px solid white;
+	border-radius: 5px;
+	margin: 2vw;
+	padding: 8vh;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: 'Ubuntu';
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	margin: 20px;
+	column-gap: 5vw;
+}
+
+input {	
+	font-family: 'Nunito';
+	font-size: 25px;
+	font-weight: bold;
+	border: 2px solid #c9cc10;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px #000000;
+	background-color: blue;
+	color: orange;
+}
+
+input:hover {
+	box-shadow: none;
+	background-color: orange;
+	color: blue;
+	cursor: pointer;
+}
